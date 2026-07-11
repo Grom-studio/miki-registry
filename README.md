@@ -1,38 +1,38 @@
 # 📦 Miki Package Registry // Poki
 
-Официальный верифицированный реестр бесплатных библиотек и аппаратных Си-драйверов для языка программирования общего назначения **Miki**.
+The official verified registry of free libraries and low-level C-drivers for the **Miki** general-purpose programming language.
 
-Экосистема Poki спроектирована так, чтобы полностью исключить легаси-хлам и защитить физические устройства от вредоносного или заброшенного кода.
-
----
-
-## 🛡️ Жесткие Законы Чистоты Экосистемы
-
-Реестр функционирует на базе трех бескомпромиссных правил:
-
-1. **🦠 0% Вирусов (Тотальная модерация):** Каждая библиотека или низкоуровневый драйвер периферии перед публикацией проходят ручную проверку модераторами «Гром-студии» и сканируются встроенным статическим антивирусным модулем Poki.
-2. **⏳ Закон 1 Года (Борьба с хламом):** C++ страдает от 20-летнего легаси-мусора. В Miki этого не будет. Если библиотека перестает соответствовать стандартам новых версий Miki и забрасывается автором, она остается доступной ровно 1 год. Если обновлений не последовало — пакет навсегда удаляется.
-3. **💸 100% Свободно и Open Source:** Выложить библиотеку в официальный реестр можно только бесплатно. Весь код открыт для публичного технического аудита, чтобы гарантировать абсолютную надежность систем жесткого реального времени.
+The Poki ecosystem is architected to completely eliminate legacy bloat and safeguard physical hardware hardware devices from malicious or abandoned code.
 
 ---
 
-## 🔒 Права Авторов библиотек
+## 🛡️ Strict Ecosystem Purity Laws
 
-- **Абсолютная собственность:** Опубликованная библиотека на 100% принадлежит вам. Никто не имеет права забрать ваш код или присвоить авторство.
-- **Эксклюзивный контроль:** Улучшать, модифицировать и выпускать обновления (патчи) к вашей библиотеке можете **только вы** через подтвержденные ключи безопасности.
-- **Максимальная витрина:** Все проверенные модули попадают на главную страницу официального сайта, получая огромный охват среди робототехников и мейкеров.
+The registry functions based on three uncompromising rules:
+
+1. **🦠 0% Malware (Total Moderation):** Every peripheral driver or third-party module undergoes manual inspection by "Grom-studio" moderators and is scanned by Poki's built-in static antivirus engine before publication. Hardware safety is the highest priority.
+2. **⏳ The 1-Year Law (Anti-Bloat Directive):** C++ has been suffering from 20-year-old legacy garbage. Miki will not. If a library stops conforming to the standards of newer Miki versions and is abandoned by its author, it remains legacy-accessible for exactly 1 year. If no updates are pushed, the package is permanently purged.
+3. **💸 100% Free & Open Source:** Publishing a library to the official registry can only be done for free. All code must be completely open for public technical audits to ensure the absolute reliability of hard real-time robotic systems.
 
 ---
 
-## 📥 Использование менеджера пакетов
+## 🔒 Package Authors' Rights
 
-Для интеграции верифицированного Си-драйвера в ваш полетный проект или прошивку контроллера, используйте утилиту `poki` внутри папки проекта:
+- **Absolute Ownership:** An autonomous published library belongs 100% to you. No one has the right to steal your code or claim authorship.
+- **Exclusive Control:** Improving, modifying, and releasing updates (patches) to your library can **only be done by you** via verified cryptographic security keys.
+- **Global Showcase:** Every verified module is promoted on the main page of the official website, giving your project immense visibility among roboticists and makers worldwide.
+
+---
+
+## 📥 Package Manager Usage
+
+To integrate a verified C-driver into your avionics project or microcontroller firmware, execute the `poki` utility inside your project directory:
 
 ```bash
-miki add <название_библиотеки>
+miki add <library_name>
 ```
 
-*Пример для базовых моторов БПЛА:*
+*Example for basic UAV brushless motors:*
 ```bash
 miki add motors
 ```
